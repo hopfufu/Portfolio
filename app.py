@@ -4,10 +4,9 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
-import seaborn as sns
 import plotly.graph_objs as go
 import pydeck as pdk 
-from plotly.offline import init_notebook_mode,iplot,plot
+from plotly.offline import init_notebook_mode
 init_notebook_mode(connected=True)
 
 
